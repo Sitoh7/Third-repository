@@ -1,0 +1,61 @@
+
+header{background-color: black;
+        color: white;
+        font-size: 16px;
+        font-style: italic;}
+.logo{width: 100px;
+        padding-left: 10px;
+        padding-top: 10px;
+        }
+
+.sub-header{background-color: #BFEFFF;
+            margin-top: -22px;
+            text-align: center;}
+.staff-img{width: 100%;}
+.islands{width: 100%;}
+
+.content{font-size: 12px;}
+table { text-align: left;
+        border: solid gray;
+        width: 100%;}
+th{ background-color: #A9A9A9;}
+td{ background-color: #BEBEBE;}
+
+footer{color: white;
+    background-color: black;
+    font-size: 14px;
+    font-weight: bold;}
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {/* Responsive breakpoint - targets devices that have a minimum width of 600px and applies these styles */
+
+    header p { text-align: right;}
+
+
+.sub-header{text-align: left;}
+
+.staff-img{width: 50%;
+            float: left;}
+.islands{width: 50%;
+float: right;}
+
+.staff{float: left;}
+
+.locations{float: right;}
+
+.tbl{float: righ;}
+
+
+
+
+
+
+
+}
